@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0799F6232D500F9300FB96A8 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 0799F6222D500F9300FB96A8 /* SwiftCSV */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0799F6012D4FE44000FB96A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0799F5E82D4FE43F00FB96A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0799F5EF2D4FE43F00FB96A8;
+			remoteInfo = SleepImporter;
+		};
+		0799F60B2D4FE44000FB96A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0799F5E82D4FE43F00FB96A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0799F5EF2D4FE43F00FB96A8;
+			remoteInfo = SleepImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0799F5F02D4FE43F00FB96A8 /* SleepImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0799F6002D4FE44000FB96A8 /* SleepImporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepImporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0799F60A2D4FE44000FB96A8 /* SleepImporterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepImporterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0799F6252D50168300FB96A8 /* Exceptions for "SleepImporter" folder in "SleepImporter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0799F5EF2D4FE43F00FB96A8 /* SleepImporter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0799F5F22D4FE43F00FB96A8 /* SleepImporter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0799F6252D50168300FB96A8 /* Exceptions for "SleepImporter" folder in "SleepImporter" target */,
+			);
+			path = SleepImporter;
+			sourceTree = "<group>";
+		};
+		0799F6032D4FE44000FB96A8 /* SleepImporterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SleepImporterTests;
+			sourceTree = "<group>";
+		};
+		0799F60D2D4FE44000FB96A8 /* SleepImporterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SleepImporterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0799F5ED2D4FE43F00FB96A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0799F6232D500F9300FB96A8 /* SwiftCSV in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0799F5FD2D4FE44000FB96A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0799F6072D4FE44000FB96A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0799F5E72D4FE43F00FB96A8 = {
+			isa = PBXGroup;
+			children = (
+				0799F5F22D4FE43F00FB96A8 /* SleepImporter */,
+				0799F6032D4FE44000FB96A8 /* SleepImporterTests */,
+				0799F60D2D4FE44000FB96A8 /* SleepImporterUITests */,
+				0799F5F12D4FE43F00FB96A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0799F5F12D4FE43F00FB96A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0799F5F02D4FE43F00FB96A8 /* SleepImporter.app */,
+				0799F6002D4FE44000FB96A8 /* SleepImporterTests.xctest */,
+				0799F60A2D4FE44000FB96A8 /* SleepImporterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0799F5EF2D4FE43F00FB96A8 /* SleepImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0799F6142D4FE44000FB96A8 /* Build configuration list for PBXNativeTarget "SleepImporter" */;
+			buildPhases = (
+				0799F5EC2D4FE43F00FB96A8 /* Sources */,
+				0799F5ED2D4FE43F00FB96A8 /* Frameworks */,
+				0799F5EE2D4FE43F00FB96A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0799F5F22D4FE43F00FB96A8 /* SleepImporter */,
+			);
+			name = SleepImporter;
+			packageProductDependencies = (
+				0799F6222D500F9300FB96A8 /* SwiftCSV */,
+			);
+			productName = SleepImporter;
+			productReference = 0799F5F02D4FE43F00FB96A8 /* SleepImporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0799F5FF2D4FE44000FB96A8 /* SleepImporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0799F6172D4FE44000FB96A8 /* Build configuration list for PBXNativeTarget "SleepImporterTests" */;
+			buildPhases = (
+				0799F5FC2D4FE44000FB96A8 /* Sources */,
+				0799F5FD2D4FE44000FB96A8 /* Frameworks */,
+				0799F5FE2D4FE44000FB96A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0799F6022D4FE44000FB96A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0799F6032D4FE44000FB96A8 /* SleepImporterTests */,
+			);
+			name = SleepImporterTests;
+			packageProductDependencies = (
+			);
+			productName = SleepImporterTests;
+			productReference = 0799F6002D4FE44000FB96A8 /* SleepImporterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0799F6092D4FE44000FB96A8 /* SleepImporterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0799F61A2D4FE44000FB96A8 /* Build configuration list for PBXNativeTarget "SleepImporterUITests" */;
+			buildPhases = (
+				0799F6062D4FE44000FB96A8 /* Sources */,
+				0799F6072D4FE44000FB96A8 /* Frameworks */,
+				0799F6082D4FE44000FB96A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0799F60C2D4FE44000FB96A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0799F60D2D4FE44000FB96A8 /* SleepImporterUITests */,
+			);
+			name = SleepImporterUITests;
+			packageProductDependencies = (
+			);
+			productName = SleepImporterUITests;
+			productReference = 0799F60A2D4FE44000FB96A8 /* SleepImporterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0799F5E82D4FE43F00FB96A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0799F5EF2D4FE43F00FB96A8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0799F5FF2D4FE44000FB96A8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0799F5EF2D4FE43F00FB96A8;
+					};
+					0799F6092D4FE44000FB96A8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0799F5EF2D4FE43F00FB96A8;
+					};
+				};
+			};
+			buildConfigurationList = 0799F5EB2D4FE43F00FB96A8 /* Build configuration list for PBXProject "SleepImporter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0799F5E72D4FE43F00FB96A8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0799F6212D500F5300FB96A8 /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0799F5F12D4FE43F00FB96A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0799F5EF2D4FE43F00FB96A8 /* SleepImporter */,
+				0799F5FF2D4FE44000FB96A8 /* SleepImporterTests */,
+				0799F6092D4FE44000FB96A8 /* SleepImporterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0799F5EE2D4FE43F00FB96A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0799F5FE2D4FE44000FB96A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0799F6082D4FE44000FB96A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0799F5EC2D4FE43F00FB96A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0799F5FC2D4FE44000FB96A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0799F6062D4FE44000FB96A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0799F6022D4FE44000FB96A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0799F5EF2D4FE43F00FB96A8 /* SleepImporter */;
+			targetProxy = 0799F6012D4FE44000FB96A8 /* PBXContainerItemProxy */;
+		};
+		0799F60C2D4FE44000FB96A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0799F5EF2D4FE43F00FB96A8 /* SleepImporter */;
+			targetProxy = 0799F60B2D4FE44000FB96A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0799F6122D4FE44000FB96A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0799F6132D4FE44000FB96A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0799F6152D4FE44000FB96A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SleepImporter/SleepImporter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepImporter/Preview Content\"";
+				DEVELOPMENT_TEAM = W93294MVX9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SleepImporter/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This application needs access to your Health application";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This application needs access to a CSV file to import sleep data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmcconkie.SleepImporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0799F6162D4FE44000FB96A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SleepImporter/SleepImporter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepImporter/Preview Content\"";
+				DEVELOPMENT_TEAM = W93294MVX9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SleepImporter/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This application needs access to your Health application";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This application needs access to a CSV file to import sleep data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmcconkie.SleepImporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0799F6182D4FE44000FB96A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93294MVX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmcconkie.SleepImporterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepImporter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepImporter";
+			};
+			name = Debug;
+		};
+		0799F6192D4FE44000FB96A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93294MVX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmcconkie.SleepImporterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepImporter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepImporter";
+			};
+			name = Release;
+		};
+		0799F61B2D4FE44000FB96A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93294MVX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmcconkie.SleepImporterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepImporter;
+			};
+			name = Debug;
+		};
+		0799F61C2D4FE44000FB96A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93294MVX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmcconkie.SleepImporterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepImporter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0799F5EB2D4FE43F00FB96A8 /* Build configuration list for PBXProject "SleepImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0799F6122D4FE44000FB96A8 /* Debug */,
+				0799F6132D4FE44000FB96A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0799F6142D4FE44000FB96A8 /* Build configuration list for PBXNativeTarget "SleepImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0799F6152D4FE44000FB96A8 /* Debug */,
+				0799F6162D4FE44000FB96A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0799F6172D4FE44000FB96A8 /* Build configuration list for PBXNativeTarget "SleepImporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0799F6182D4FE44000FB96A8 /* Debug */,
+				0799F6192D4FE44000FB96A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0799F61A2D4FE44000FB96A8 /* Build configuration list for PBXNativeTarget "SleepImporterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0799F61B2D4FE44000FB96A8 /* Debug */,
+				0799F61C2D4FE44000FB96A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0799F6212D500F5300FB96A8 /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0799F6222D500F9300FB96A8 /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0799F6212D500F5300FB96A8 /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0799F5E82D4FE43F00FB96A8 /* Project object */;
+}
