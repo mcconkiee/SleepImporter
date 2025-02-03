@@ -26,18 +26,26 @@ struct ContentView: View {
                     selectedFileURL = url
                     isImporting = true
                     print("Imported file: \(url.path)")
-                    sleepDataImporter.parseAndAddToHealth(urlPath:url.path,completion: { records in
-                        DispatchQueue.main.async {
-                            print("allDone!")
-                            let ok = UIAlertAction(title: "Ok", style: .default,handler: {(alert: UIAlertAction!) in isImporting = false})
-                            let alertController = UIAlertController(title: "Import Complete", message: "\(records.count) records imported successfully", preferredStyle: .alert)
-                            alertController.addAction(ok)
-                            //...
-                            var rootViewController = UIApplication.shared.keyWindow?.rootViewController
-                            
-                            rootViewController?.present(alertController, animated: true, completion: nil)
-                        }
-                    })
+                    let access = url.startAccessingSecurityScopedResource()
+                    do {
+                       if access {
+                          
+                           sleepDataImporter.parseAndAddToHealth(urlPath:url.path,completion: { records in
+                               DispatchQueue.main.async {
+                                   print("allDone!")
+                                   let ok = UIAlertAction(title: "Ok", style: .default,handler: {(alert: UIAlertAction!) in isImporting = false})
+                                   let alertController = UIAlertController(title: "Import Complete", message: "\(records.count) records imported successfully", preferredStyle: .alert)
+                                   alertController.addAction(ok)
+                                   //...
+                                   var rootViewController = UIApplication.shared.keyWindow?.rootViewController
+                                   
+                                   rootViewController?.present(alertController, animated: true, completion: nil)
+                                   url.stopAccessingSecurityScopedResource()
+                               }
+                           })
+                       }
+                    }
+                    
                 case .failure(let error):
                     print("Error selecting file: \(error.localizedDescription)")
                 }
